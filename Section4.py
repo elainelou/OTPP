@@ -15,6 +15,9 @@ import csv
 import os
 from scipy.stats import norm
 
+####### Please use Section 4data ######
+# Example usage:
+directory = '/Users/yilinlou/JOB/2024Package/JD/Case/s4data/'  # Directory containing CSV files
 
 ####### I. Import Data ##########
 def import_csvs(directory):
@@ -62,8 +65,7 @@ def compute_annual_returns(expected_returns):
     annual_returns = expected_returns * 252
     return annual_returns
 '''
-# Example usage:
-directory = '/Users/yilinlou/JOB/2024Package/JD/Case/s4data/'  # Directory containing CSV files
+
 
 # Import CSV files as separate DataFrames with meaningful names
 dataframes = import_csvs(directory)

@@ -38,6 +38,7 @@ Y_correlated = Y * scaling_factor
 # apply linear tranformation while preserving their marginal distributions
 # Import data
 
+##### Please use Section 1 data #######
 file_path1 = '/Users/yilinlou/JOB/2024Package/JD/USDCAD.csv'
 usd_cad =pd.read_csv(file_path1)
 
